@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "name": "John",
+      "email": "john@gmail.com",
+      "age": 26,
+      "designation": "QA"
+    },
+    {
+      "name": "Dennis",
+      "email": "dennis.c@gmail.com",
+      "age": 30,
+      "designation": "Developer"
+    },
+    {
+      "name": "Elizabeth",
+      "email": "elizb@gmail.com",
+      "age": 24,
+      "designation": "Secretary"
+    },
+    {
+      "name": "Steve",
+      "email": "s.deff@gmail.com",
+      "age": 29,
+      "designation": "Test Architect"
+    }
+  ]
+}
