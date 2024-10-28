@@ -1,0 +1,30 @@
+{
+  "passengerdetails": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "activeTraveller": true,
+      "origin": "Paris",
+      "destination": "Frankfurt",
+      "ticketdetails": {
+        "airlines": "Saudi Airlines",
+        "pnr": "PFJF45G",
+        "date": "29/10/2024",
+        "ticketamt": 45000
+      }
+    },
+    {
+      "id": 2,
+      "name": "Richard Dave",
+      "activeTraveller": true,
+      "origin": "Mumbai",
+      "destination": "Dubai",
+      "ticketdetails": {
+        "airlines": "Emirates",
+        "pnr": "PCG78Y",
+        "date": "31/10/2024",
+        "ticketamt": 26000
+      }
+    }
+  ]
+}
