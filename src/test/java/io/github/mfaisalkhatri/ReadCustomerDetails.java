@@ -13,7 +13,7 @@ import com.google.gson.reflect.TypeToken;
 import io.github.mfaisalkhatri.pojo.CustomerDetails;
 import org.hamcrest.MatcherAssert;
 
-public class ReadJsonArray {
+public class ReadCustomerDetails {
 
     public static void main (String[] args) {
 
@@ -26,13 +26,18 @@ public class ReadJsonArray {
             }.getType ();
             List<CustomerDetails> customerDetailsList = gson.fromJson (reader, listCustomerDetailsType);
 
-            System.out.println ("Printing all the Customer details from the file: " +customerDetailsList);
-            System.out.println ("Printing the Customer details from the third Json Object from file: " +customerDetailsList.get (2));
-            System.out.println ("Printing the Name of the Customer from second Json Object: " + customerDetailsList.get (1)
-                .getName ());
-            System.out.println ("Printing the Email of the Customer from third Json Object: " +customerDetailsList.get (2)
-                .getEmail ());
-
+            System.out.println ("Printing all the customer details from the file: " + customerDetailsList);
+            System.out.println (
+                "Printing the customer details from the third Json Object from file: " + customerDetailsList.get (2));
+            System.out.println (
+                "Printing the name of the customer from second Json Object: " + customerDetailsList.get (1)
+                    .getName ());
+            System.out.println (
+                "Printing the email of the customer from third Json Object: " + customerDetailsList.get (2)
+                    .getEmail ());
+            System.out.println (
+                "Printing the Coupon details of customer from the third Json object: " + customerDetailsList.get (2)
+                    .isCoupon ());
             MatcherAssert.assertThat (customerDetailsList.get (3)
                 .getCountry (), equalTo ("Spain"));
 

@@ -7,12 +7,10 @@ import lombok.ToString;
 @ToString
 public class CustomerDetails {
 
-    private int numberrange;
+    private int customerid;
     private String name;
     private String phone;
     private String email;
     private String country;
-    private String alphanumeric;
-
-
+    private boolean coupon ;
 }

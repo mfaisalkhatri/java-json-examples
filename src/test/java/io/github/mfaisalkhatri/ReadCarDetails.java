@@ -7,7 +7,7 @@ import java.io.Reader;
 import com.google.gson.Gson;
 import io.github.mfaisalkhatri.pojo.CarDetails;
 
-public class ReadJsonObject {
+public class ReadCarDetails {
 
     public static void main (String[] args) {
         Gson gson = new Gson ();

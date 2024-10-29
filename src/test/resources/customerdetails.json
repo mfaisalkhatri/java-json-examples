@@ -1,42 +1,42 @@
 [
     {
-    "numberrange": 5,
+    "customerid": 5,
     "name": "Dylan Hood",
     "phone": "1-216-578-5381",
     "email": "sollicitudin@aol.com",
     "country": "Belgium",
-    "alphanumeric": "QKU41NZC5PB"
+    "Coupon": true
   },
   {
-    "numberrange": 7,
+    "customerid": 7,
     "name": "Jeremy Joyce",
     "phone": "1-751-217-3163",
     "email": "in.faucibus@aol.com",
     "country": "Indonesia",
-    "alphanumeric": "YBO34KQQ8HO"
+    "Coupon": true
   },
   {
-    "numberrange": 5,
+    "customerid": 8,
     "name": "Kyle Dominguez",
     "phone": "(835) 147-8401",
     "email": "pede.blandit@icloud.net",
     "country": "Vietnam",
-    "alphanumeric": "MHW91JUG4PS"
+    "Coupon": true
   },
   {
-    "numberrange": 6,
+    "customerid": 19,
     "name": "Libby Nash",
     "phone": "1-145-851-9979",
     "email": "integer@outlook.com",
     "country": "Spain",
-    "alphanumeric": "RLS60AGC8SX"
+    "Coupon": false
   },
   {
-    "numberrange": 5,
+    "customerid": 21,
     "name": "Willow Graves",
     "phone": "1-356-817-7211",
     "email": "ipsum.suspendisse@outlook.edu",
     "country": "Singapore",
-    "alphanumeric": "OWA89TWP4BO"
+    "Coupon": false
   }
 ]
