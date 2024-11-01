@@ -1,6 +1,5 @@
 package io.github.mfaisalkhatri.pojo;
 
-import java.util.List;
 
 import lombok.Getter;
 import lombok.ToString;
