@@ -19,8 +19,8 @@
     - [Linktree](https://linktr.ee/faisalkhatri)
 
 ## :writing_hand: Blog Links
+- [How to read JSON files in Java using Google Gson library?](https://medium.com/@iamfaisalkhatri/how-to-read-json-files-in-java-using-google-gson-library-3baefd7ae154)
 - [How to perform JSON Schema Validation using Rest-Assured?](https://medium.com/@iamfaisalkhatri/how-to-perform-json-schema-validation-using-rest-assured-64c3b6616a91)
-
 
 ## :thought_balloon: Checkout the blogs related to Testing on
 
