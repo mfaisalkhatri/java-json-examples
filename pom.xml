@@ -17,7 +17,7 @@
     <lombok.version>1.18.42</lombok.version>
     <maven-compiler-plugin.version>3.14.1</maven-compiler-plugin.version>
     <maven-surefire-plugin.version>3.5.4</maven-surefire-plugin.version>
-    <maven-enforcer.version>3.6.1</maven-enforcer.version>
+    <maven-enforcer.version>3.6.2</maven-enforcer.version>
     <java-release.version>17</java-release.version>
   </properties>
 
